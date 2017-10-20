@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="Company name"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@android:color/white"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information"
+        android:textSize="25sp"
+        android:textAppearance="@color/colorPrimary"
+        android:layout_centerInParent="true"
+        android:id="@+id/information"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Products"
+        android:textSize="25sp"
+        android:textAppearance="@color/colorPrimary"
+        android:layout_alignBottom="@+id/information"
+        />
+</RelativeLayout>

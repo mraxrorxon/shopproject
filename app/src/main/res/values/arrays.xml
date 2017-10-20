@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="rightColors">
+        <item>@color/colorAccent</item>
+    </integer-array>
+    <integer-array name="rightDrawables">
+        <item>@android:drawable/ic_menu_delete</item>
+    </integer-array>
+</resources>
